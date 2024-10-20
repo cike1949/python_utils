@@ -3,10 +3,10 @@
 
 # ******************************************************
 # Author       : Ruopeng Huang
-# Last modified: 2024-10-13 19:54
+# Last modified: 2024-10-20 18:40
 # Email        : cike1949@gmail.com
-# Filename     : readExceclToWord.py
-# Description  : v0.1
+# Filename     : readExceclToWord_v1.py
+# Description  : v1
 # ******************************************************
 
 import sys
@@ -64,7 +64,7 @@ def replaceWordfromExcel(file_excel):
 	file_new_word = '周报 {}.{}.{}.docx'.format(update_year, update_month, update_day)
 	doc.save(file_new_word)
 
-	print('Hi 旭瑜, replacement work has been completed, created a new word file <%s>'%file_new_word)
+	print('Hi 扶光, replacement work has been completed, created a new word file <%s>'%file_new_word)
 
 def main():
 	argv_len = len(sys.argv)
