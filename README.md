@@ -15,9 +15,9 @@ py -m pip install python-docx
 ## How to run
 python <python_file_name> <Excep_file_path>
 ### Example
-python reayExcelToWrod_v1.py MTM 2024.7.3.xlsx  
-python3 reayExcelToWrod_v1.py MTM 2024.7.3.xlsx
-
-
+#### Windows
+python .\readExceclToWord_v1.py "C:\Users\robhuang\Downloads\test_py\MTM 2024.7.3.1.xlsx"
+#### Linux/Mac OS
+python3 readExceclToWord_v1.py Users/hrp/Download/MTM\ 2024.7.3.1.xlsx
 
 
